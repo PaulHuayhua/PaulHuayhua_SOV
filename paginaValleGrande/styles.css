@@ -13,7 +13,7 @@ body {
 }
 
 .barnav img {
-    height: 50px; 
+    height: 50px;
     margin-left: 30px;
 }
 
@@ -43,13 +43,13 @@ section {
 }
 section img {
     width: 100%;
-    height: auto; /* Mantiene la proporción original */
+    height: auto; 
 }
 
 h1 {
-    font-size: 55px; /* Tamaño de fuente grande para el título principal */
+    font-size: 55px;
     color: #333;
-    text-align: center; /* Centra el título si lo deseas */
+    text-align: center;
 }
 
 h2 {
