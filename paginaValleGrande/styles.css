@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-}
+    font-family: 'Times New Roman', Times, serif;}
 
 .barnav {
     display: flex;
@@ -48,7 +47,7 @@ section img {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     color: #000000;
     text-align: center;
@@ -67,4 +66,51 @@ section a {
     margin-top: 10px;
     text-decoration: none;
     color: #007bff;
+}
+
+.read-more {
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #F4B340;
+    text-decoration: none;
+    border-radius: 40px;
+    border: 2.5px solid black;
+}
+
+footer {
+    background: #005185;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-content p {
+    margin: 5px 15px;
+    font-size: 15px; 
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: underline;
 }
